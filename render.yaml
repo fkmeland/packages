@@ -2,6 +2,7 @@
 services:
   - type: web
     name: coder
+    region: frankfurt
     env: docker
     autoDeploy: false
     plan: starter
@@ -14,4 +15,5 @@ services:
 # Postgres Database
 databases:
   - name: coder
+    region: frankfurt
     postgresMajorVersion: 15
